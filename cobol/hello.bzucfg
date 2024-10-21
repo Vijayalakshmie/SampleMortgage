@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<runner:RunnerConfiguration xmlns:runner="http://www.ibm.com/zUnit/3.0.0.0/TestRunner" id="4370db30-e09c-4148-90e4-14a57b41ec53">
+  <runner:options contOnTestCaseError="false" contOnTestCaseFail="true" contOnTestError="false" contOnTestFail="true" fileIOCapture="enable"/>
+  <runner:testCase moduleName="HELLO">
+    <test name="TEST1" entry="TEST_TEST1" type="BTCH" init="BZU_INIT" term="BZU_TERM" program="HELLO" commarea="" skipTest="false" resetFile="false" stubCall="true" dummy="false"/>
+  </runner:testCase>
+  <runner:intercept module="HELLO" stub="false" lengths="" retcode="true" exist="false"/>
+  <runner:playback moduleName="HELLO"/>
+  <runner:fileAttributes hlqDdName="AZUHLQ"/>
+</runner:RunnerConfiguration>
