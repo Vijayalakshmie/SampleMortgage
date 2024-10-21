@@ -4,5 +4,5 @@
        DATA DIVISION.
        WORKING-STORAGE SECTION.
        PROCEDURE DIVISION.
-           DISPLAY 'TEST PROGRAM'.
+           DISPLAY 'GIT test'.
            STOP RUN.
