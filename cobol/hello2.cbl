@@ -4,5 +4,5 @@
        DATA DIVISION.
        WORKING-STORAGE SECTION.
        PROCEDURE DIVISION.
-           DISPLAY 'GIT test dev branch'.
+           DISPLAY 'GIT test dev branch 2'.
            STOP RUN.
